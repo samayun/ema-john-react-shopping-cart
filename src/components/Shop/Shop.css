@@ -1,0 +1,24 @@
+.shop-container {
+    display: flex;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    width: 95%;
+}
+.product-container {
+  width: 70%;
+}
+
+
+@media (max-width: 768px) {
+  .shop-container {
+    flex-direction: column-reverse;
+    text-align:center;
+  }
+  .product-container {
+    width: 100%;
+  }
+  .cart-container {
+    width: 100%;
+    /* text-align: center; */
+  }
+}
